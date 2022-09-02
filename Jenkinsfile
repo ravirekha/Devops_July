@@ -1,7 +1,7 @@
 pipeline {
     // add your slave label name
-   //agent { label 'my_slave1'}
-   agent any
+   agent { label 'my_slave1'}
+   //agent any
     tools{
         maven '3.8.6'
     }
