@@ -2,9 +2,9 @@ pipeline {
     // add your slave label name
    //agent { label 'my_slave1'}
    agent any
-    tools{
-        maven 'Maven'
-    }
+    //tools{
+        //maven 'Maven'
+    //}
     stages {
         stage ('Checkout SCM') {
 
