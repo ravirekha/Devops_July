@@ -3,7 +3,7 @@ pipeline {
    //agent { label 'my_slave1'}
    agent any
     tools{
-        maven 'Maven'
+        maven 'maven-3.8.6'
     }
     stages {
         stage ('Checkout SCM') {
