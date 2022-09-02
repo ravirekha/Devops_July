@@ -25,7 +25,7 @@ pipeline {
             steps {
                // update your tomcat server ip accordingly in below command
                sh "cd /home/jenkins/workspace/Server_deployment"
-               sh "scp maven-web-application.war  ec2-user@13.126.156.225:/opt/tomcat9/webapps/"
+               sh "scp target/maven-web-application.war  ec2-user@13.126.156.225:/opt/tomcat9/webapps/"
 
 
             }
